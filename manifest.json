@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Optimus Adblocker",
+    "version": "1",
+    "permissions": [
+        "declarativeNetRequest"
+    ],
+    "icons": {
+        "16": "icons/optimus_16x16.png",
+        "48": "icons/optimus_48x48.png",
+        "128": "icons/optimus_128x128.png"
+    },
+    "declarative_net_request": {
+        "rule_resources": [
+            {
+                "id": "ruleset_1",
+                "enabled": true,
+                "path": "rules.json"
+            }
+        ]
+    }
+    
+}
